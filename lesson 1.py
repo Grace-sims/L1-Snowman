@@ -57,5 +57,15 @@ t.setheading (270)
 t.circle (20,180)
 t.end_fill ()
 
+t.color ("black")
+t.penup ()
+t.goto (90,103)
+t.pendown ()
+t.goto (155,-63)
+
+t.penup ()
+t.goto (-80,103)
+t.pendown()
+t.goto (-145,-63)
 
 t.mainloop ()
